@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<!-- Google Tag Manager: код контейнера вставляет автор по заказу «Смоков» (СМ-09) -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://chromefleet.dokufolio.com/">
+<title>Chromebook bulk management in Google Sheets for schools</title>
+<meta name="description" content="For school IT admins on Google Workspace for Education: the Chromebook inventory in a sheet, with bulk OU moves and asset, location and user edits.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<!-- faq-jsonld:start -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Who is it for?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "IT administrators of US school districts and schools that manage Chromebooks in Google Workspace for Education."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What can I change in bulk?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Organizational unit, asset ID, location, assigned user and notes for the devices you select in the sheet."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it need Admin console access?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It works with the permissions of the administrator who connects it."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is every change logged?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Each bulk action is logged in the sheet with the time and the administrator who ran it."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I use it already?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not yet. The service is in preparation, and we are checking whether school IT teams need it."
+   }
+  }
+ ]
+}
+</script>
+<!-- faq-jsonld:end -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Chromebook Fleet Sheet</a></div>
+  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Manage hundreds of school Chromebooks from one Google Sheet — bulk moves and edits in a few clicks</h1>
+    <p class="sub">For IT administrators of school districts and schools on Google Workspace for Education: pull the Chromebook inventory into a sheet, filter it like any list, and move devices between organizational units or update asset ID, location and user for many devices at once.</p>
+    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
+    <p class="cta-note">Early access · No payment is taken on this page yet</p>
+  </div>
+
+  <section id="what" data-view="features_view">
+    <h2>What you get</h2>
+    <div class="grid">
+      <div class="card"><b>Inventory in a sheet</b><span>Every Chrome OS device from the Admin console, refreshed on demand.</span><br><a class="btn" href="price.html" data-ev="feature_import">I need this</a></div>
+      <div class="card"><b>Bulk OU moves</b><span>Move filtered rows to another organizational unit in one action.</span><br><a class="btn" href="price.html" data-ev="feature_move">I need this</a></div>
+      <div class="card"><b>Bulk field edits</b><span>Asset ID, location, user and notes updated from the sheet.</span><br><a class="btn" href="price.html" data-ev="feature_edit">I need this</a></div>
+      <div class="card"><b>Ready reports</b><span>Devices not seen lately, expiring updates, devices per school.</span><br><a class="btn" href="price.html" data-ev="feature_reports">I need this</a></div>
+    </div>
+  </section>
+
+  <section id="example" data-view="example_view">
+    <h2>Example (fictional data)</h2>
+    <p class="fine">A district IT team of three manages 4,000 Chromebooks across nine schools. Before the new school year they import the inventory, filter the 600 devices handed back by graduating students, move them to the "Spare" organizational unit in one action and update their location to the district warehouse. Then they list the devices not seen for 90 days and send each school its own list to find.</p>
+    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  </section>
+<!-- seo-tekst:start -->
+  <section id="opis">
+    <h2>How it works</h2>
+    <p>School districts in the US run thousands of Chromebooks, and most of them are managed in the Google Admin console of a Google Workspace for Education domain. Devices are handed out at the start of the year, moved between schools and classrooms, repaired, replaced and collected again.</p>
+    <p>Each of these steps means changing something on many devices at once: moving them to another organizational unit so the right policies apply, or updating the asset ID, location, assigned user and notes. In the Admin console this is mostly done device by device, or through exports and uploads that take time and are easy to get wrong.</p>
+    <p>The add-on brings the Chromebook inventory into Google Sheets. With the administrator's permission it reads the Chrome OS devices of the domain from the Admin console and lists them in a sheet: serial number, model, organizational unit, asset ID, location, assigned user, last sync and the date until which the device receives updates.</p>
+    <p>Once the devices are in the sheet, you work with them like any list. Filter by school, model, organizational unit or last seen date, sort, add your own columns, and share the sheet with colleagues who do not have Admin console access.</p>
+    <p>From the filtered rows you act in bulk. Move the selected devices to another organizational unit in one action. Edit asset ID, location, user or notes in the sheet and send the changes back to the Admin console for all edited rows at once. Every action is logged in the sheet with the time and the administrator who ran it.</p>
+    <p>Ready reports answer the usual questions: which devices have not synced for 30, 60 or 90 days, which models stop receiving updates next year, how many devices each school has in each organizational unit.</p>
+    <p>The inventory can be refreshed on demand or on a schedule, so the sheet stays close to what the Admin console shows.</p>
+    <p>The add-on is meant for IT staff of US school districts and schools on Google Workspace for Education. It runs inside Google Sheets; nothing needs to be installed on the devices.</p>
+    <p>Typical moments in the school year become short routines: handing out devices at the start of the year, moving a class to a new school, collecting devices from leaving students, marking units sent for repair and listing the models to replace before their updates end. Each routine is a filter plus one bulk action, and it can be repeated next year.</p>
+    <p>The service is in preparation: we are checking whether school IT teams need it before it is built.</p>
+    <p>The add-on changes device records only when an administrator runs an action. Device data includes user accounts, and how it is shared stays under the school's own privacy policies.</p>
+  </section>
+  <section id="faq">
+    <h2>Questions</h2>
+    <h3>Who is it for?</h3>
+    <p>IT administrators of US school districts and schools that manage Chromebooks in Google Workspace for Education.</p>
+    <h3>What can I change in bulk?</h3>
+    <p>Organizational unit, asset ID, location, assigned user and notes for the devices you select in the sheet.</p>
+    <h3>Does it need Admin console access?</h3>
+    <p>Yes. It works with the permissions of the administrator who connects it.</p>
+    <h3>Is every change logged?</h3>
+    <p>Yes. Each bulk action is logged in the sheet with the time and the administrator who ran it.</p>
+    <h3>Can I use it already?</h3>
+    <p>Not yet. The service is in preparation, and we are checking whether school IT teams need it.</p>
+  </section>
+<!-- seo-tekst:end -->
+  <section id="start" data-view="start_view">
+    <h2>Import your Chromebook inventory</h2>
+    <p><label>Chromebooks in your domain<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 500</option><option>500–2,000</option><option>2,000–10,000</option><option>More than 10,000</option></select></label></p>
+    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
+  <p class="muted">Bulk management of Chrome OS device records in Google Workspace for Education from Google Sheets. Device policies and privacy rules stay with the school.</p>
+</div></footer>
+
+</body>
+</html>
