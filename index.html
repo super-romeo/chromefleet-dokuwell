@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For school IT admins on Google Workspace for Education: the Chromebook inventory in a sheet, with bulk OU moves and asset, location and user edits.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Chromebook Fleet Sheet</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Chromebook Fleet Sheet</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Manage hundreds of school Chromebooks from one Google Sheet — bulk moves and edits in a few clicks</h1>
-    <p class="sub">For IT administrators of school districts and schools on Google Workspace for Education: pull the Chromebook inventory into a sheet, filter it like any list, and move devices between organizational units or update asset ID, location and user for many devices at once.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For IT administrators of school districts</p>
+      <h1 class="rise" style="--i:1" data-len="long">Manage hundreds of school Chromebooks from one Google Sheet&nbsp;<span class="soft">— bulk moves and edits in a few clicks</span></h1>
+      <p class="rise" style="--i:2">For IT administrators of school districts and schools on Google Workspace for Education: pull the Chromebook inventory into a sheet, filter it like any list, and move devices between organizational units or update asset ID, location and user for many devices at once.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">Google Sheet</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Bulk OU moves</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="382" font-size="32" fill="#0a1524">Ready reports</text><rect x="130" y="450" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="500" width="220" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="550" width="260" height="22" rx="8" fill="#dde2ea" /><rect x="700" y="260" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">one action</text><rect x="750" y="480" width="50" height="140" rx="8" fill="#12397a" /><rect x="830" y="420" width="50" height="200" rx="8" fill="#ffffff" /><rect x="910" y="530" width="50" height="90" rx="8" fill="#b9c3d2" /><rect x="990" y="460" width="50" height="160" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>School districts and schools</dd></div>
+      <div><dt>Sheet</dt><dd>One Google Sheet</dd></div>
+      <div><dt>Bulk</dt><dd>Bulk moves and edits</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Inventory in a sheet</b><span>Every Chrome OS device from the Admin console, refreshed on demand.</span><br><a class="btn" href="price.html" data-ev="feature_import">I need this</a></div>
-      <div class="card"><b>Bulk OU moves</b><span>Move filtered rows to another organizational unit in one action.</span><br><a class="btn" href="price.html" data-ev="feature_move">I need this</a></div>
-      <div class="card"><b>Bulk field edits</b><span>Asset ID, location, user and notes updated from the sheet.</span><br><a class="btn" href="price.html" data-ev="feature_edit">I need this</a></div>
-      <div class="card"><b>Ready reports</b><span>Devices not seen lately, expiring updates, devices per school.</span><br><a class="btn" href="price.html" data-ev="feature_reports">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Inventory in a sheet</text><rect x="140" y="190" width="340" height="280" rx="12" fill="#eef2f7" /><rect x="170" y="230" width="260" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="270" width="200" height="18" rx="8" fill="#b9c3d2" /><rect x="170" y="310" width="240" height="18" rx="8" fill="#dde2ea" /><rect x="170" y="350" width="160" height="18" rx="8" fill="#b9c3d2" /><circle cx="560" cy="330" r="64" fill="#dfe8f7" /><polyline points="524,330 548,358 602,290" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><text x="170" y="430" font-size="30" fill="#566174">on demand</text></svg></div>
+        <h3>Inventory in a sheet</h3><p>Every Chrome OS device from the Admin console, refreshed on demand.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_import">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="120" font-size="32" font-weight="600" fill="#0a1524">Bulk OU moves</text><text x="80" y="170" font-size="30" fill="#566174">one action</text><rect x="70" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="260" width="180" height="18" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="140" height="18" rx="8" fill="#b9c3d2" /><rect x="100" y="340" width="160" height="18" rx="8" fill="#dde2ea" /><path d="M340 360 H420" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="420,346 456,360 420,374" fill="#12397a" /><rect x="480" y="220" width="250" height="280" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="260" width="180" height="18" rx="8" fill="#dfe8f7" /><rect x="510" y="300" width="150" height="18" rx="8" fill="#dde2ea" /><rect x="510" y="340" width="170" height="18" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Bulk OU moves</h3><p>Move filtered rows to another organizational unit in one action.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_move">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Bulk field edits</text><text x="120" y="195" font-size="30" fill="#566174">from the sheet</text><rect x="140" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,272 158,284 174,260" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="262" width="300" height="20" rx="8" fill="#dde2ea" /><rect x="140" y="330" width="44" height="44" rx="8" fill="#dfe8f7" /><polyline points="150,352 158,364 174,340" fill="none" stroke="#12397a" stroke-width="4" stroke-linecap="round" /><rect x="210" y="342" width="240" height="20" rx="8" fill="#b9c3d2" /><rect x="140" y="410" width="44" height="44" rx="8" fill="#eef2f7" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="422" width="270" height="20" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Bulk field edits</h3><p>Asset ID, location, user and notes updated from the sheet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_edit">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Ready reports</text><text x="120" y="190" font-size="30" fill="#566174">per school</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="380" width="70" height="90" rx="8" fill="#b9c3d2" /><rect x="280" y="320" width="70" height="150" rx="8" fill="#dde2ea" /><rect x="400" y="270" width="70" height="200" rx="8" fill="#12397a" /><rect x="520" y="350" width="70" height="120" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Ready reports</h3><p>Devices not seen lately, expiring updates, devices per school.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_reports">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A district IT team of three manages 4,000 Chromebooks across nine schools. Before the new school year they import the inventory, filter the 600 devices handed back by graduating students, move them to the "Spare" organizational unit in one action and update their location to the district warehouse. Then they list the devices not seen for 90 days and send each school its own list to find.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A district IT team of three manages 4,000 Chromebooks across nine schools. Before the new school year they import the inventory, filter the 600 devices handed back by graduating students, move them to the "Spare" organizational unit in one action and update their location to the district warehouse. Then they list the devices not seen for 90 days and send each school its own list to find.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">nine schools</text><text x="600" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">one action</text><text x="960" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">90 days</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">Spare</text><text x="170" y="480" font-size="32" fill="#566174">district warehouse</text><rect x="170" y="560" width="180" height="24" rx="8" fill="#dde2ea" /><rect x="370" y="560" width="140" height="24" rx="8" fill="#b9c3d2" /><rect x="530" y="560" width="220" height="24" rx="8" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>School districts in the US run thousands of Chromebooks, and most of them are managed in the Google Admin console of a Google Workspace for Education domain. Devices are handed out at the start of the year, moved between schools and classrooms, repaired, replaced and collected again.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>School districts in the US run thousands of Chromebooks, and most of them are managed in the Google Admin console of a Google Workspace for Education domain. Devices are handed out at the start of the year, moved between schools and classrooms, repaired, replaced and collected again.</p>
     <p>Each of these steps means changing something on many devices at once: moving them to another organizational unit so the right policies apply, or updating the asset ID, location, assigned user and notes. In the Admin console this is mostly done device by device, or through exports and uploads that take time and are easy to get wrong.</p>
     <p>The add-on brings the Chromebook inventory into Google Sheets. With the administrator's permission it reads the Chrome OS devices of the domain from the Admin console and lists them in a sheet: serial number, model, organizational unit, asset ID, location, assigned user, last sync and the date until which the device receives updates.</p>
     <p>Once the devices are in the sheet, you work with them like any list. Filter by school, model, organizational unit or last seen date, sort, add your own columns, and share the sheet with colleagues who do not have Admin console access.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Typical moments in the school year become short routines: handing out devices at the start of the year, moving a class to a new school, collecting devices from leaving students, marking units sent for repair and listing the models to replace before their updates end. Each routine is a filter plus one bulk action, and it can be repeated next year.</p>
     <p>The service is in preparation: we are checking whether school IT teams need it before it is built.</p>
     <p>The add-on changes device records only when an administrator runs an action. Device data includes user accounts, and how it is shared stays under the school's own privacy policies.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>IT administrators of US school districts and schools that manage Chromebooks in Google Workspace for Education.</p>
-    <h3>What can I change in bulk?</h3>
-    <p>Organizational unit, asset ID, location, assigned user and notes for the devices you select in the sheet.</p>
-    <h3>Does it need Admin console access?</h3>
-    <p>Yes. It works with the permissions of the administrator who connects it.</p>
-    <h3>Is every change logged?</h3>
-    <p>Yes. Each bulk action is logged in the sheet with the time and the administrator who ran it.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether school IT teams need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>IT administrators of US school districts and schools that manage Chromebooks in Google Workspace for Education.</p></div>
+      <div class="split flip"><h3>What can I change in bulk?</h3><p>Organizational unit, asset ID, location, assigned user and notes for the devices you select in the sheet.</p></div>
+      <div class="split flip"><h3>Does it need Admin console access?</h3><p>Yes. It works with the permissions of the administrator who connects it.</p></div>
+      <div class="split flip"><h3>Is every change logged?</h3><p>Yes. Each bulk action is logged in the sheet with the time and the administrator who ran it.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether school IT teams need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Import your Chromebook inventory</h2>
-    <p><label>Chromebooks in your domain<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 500</option><option>500–2,000</option><option>2,000–10,000</option><option>More than 10,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Import your Chromebook inventory</h2>
+    </div>
+    <div class="tile stack">
+      <label>Chromebooks in your domain<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 500</option><option>500–2,000</option><option>2,000–10,000</option><option>More than 10,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Chromebook Fleet Sheet</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Bulk management of Chrome OS device records in Google Workspace for Education from Google Sheets. Device policies and privacy rules stay with the school.</p>
+  <p>Bulk management of Chrome OS device records in Google Workspace for Education from Google Sheets. Device policies and privacy rules stay with the school.</p>
 </div></footer>
 
 </body>
